@@ -20,30 +20,58 @@
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 800;
     color: #F9FAF8;
     margin-left: 5vh;
     margin-right: 100vh;
 }
 
-
 .hero,.left-items {
     display: flex;
     background-color: #1F2937;
     color: #FFFFFF;
+    padding: 5vh;
+
 }
 
 .left-items{
     flex-direction: column;
+    margin-left: 10vh;
+    padding: 0;
 }
 
-.left-top {
+.left-top .title-text{
     font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
 
+.left-top .paragraph{
+    margin: 0;
+}
+
+.left-bottom {
+    padding-bottom: 10vh;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
+    align-items: center;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-boxes{
+    display: flex;
+    flex-direction: row;
+    border: #3882F6;
+    gap: 24px;
 }
 
 .quote {
