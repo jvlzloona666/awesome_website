@@ -4,7 +4,7 @@ html, body {
     padding: 0;
   } 
 
-.header {
+.header,.footer{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,6 +12,13 @@ html, body {
     background-color: #1f2937;
     color: white;
 }
+
+.footer {
+    justify-content: center;
+    gap: 20px;
+    padding: 2vh;
+}
+
 
 a {
     color: white;
@@ -27,6 +34,7 @@ button {
     border: none;
     cursor: pointer;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .links {
@@ -114,5 +122,31 @@ button {
     width: 50%;
     text-align: right;
 }
+
+.call-to-action {
+    display: flex;
+    padding: 10vh;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    color: white;
+    line-height: 6px;
+    width: 50%;
+    padding: 5vh;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+}
+
 
 
